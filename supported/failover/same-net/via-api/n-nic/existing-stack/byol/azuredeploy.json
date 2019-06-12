@@ -483,7 +483,7 @@
             "Standard_GS4",
             "Standard_GS5"
         ],
-        "location": "[resourceGroup().location]",
+        "location": "uaenorth",
         "adminPasswordOrKey": "[replace(parameters('adminPasswordOrKey'),'\\n', '\n')]",
         "linuxConfiguration": {
             "disablePasswordAuthentication": true,
